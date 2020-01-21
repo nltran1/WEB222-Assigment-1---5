@@ -1,0 +1,7 @@
+
+/Users/khoiphung/Desktop/WEB222/assigment/assignment2/assignment2.js
+  118:14  warning  Unnecessary 'else' after 'return'  no-else-return
+
+✖ 1 problem (0 errors, 1 warning)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

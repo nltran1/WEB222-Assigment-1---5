@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB222</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/lab3-theme.css" />
+        <script src="js/table.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <h2>
+                    WEB222 - Assignment 3
+                </h2>
+            </div>
+        </header>
+        <nav>
+            <div class="center">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="list.html">List</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="image.html">Image</a></li>
+                    <li><a href="audio.html">Audio</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="honesty.html">Honesty</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="main center">
+            <!-- Start your code here -->
+            <h2>HTML Tables</h2>
+
+            <table style="border:1px solid;">
+                <caption>
+                    <h3>Enrolled Program Information</h3>
+                </caption>
+
+                <tr>
+                    <th style="border:1px solid;">Program</th>
+                    <th style="border:1px solid;">courses enrolled</th>
+                    <th style="border:1px solid;">schedule</th>
+                </tr>
+
+                <tr>
+                    <td rowspan="5" style="border:1px solid;">
+                        Computer<br />
+                        Programmer<br />
+                        (CPD)
+                    </td>
+                    <td style="border:1px solid;">DBS 201</td>
+                    <td style="border:1px solid;">
+                        Monday: 11:40am - 1:25pm<br />
+                        Thursday: 9:50am - 11:35pm
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border:1px solid;">OOP 244</td>
+                    <td style="border:1px solid;">
+                        Monday: 1:30pm - 3:15pm<br />
+                        Thursday: 8:00am -9:45am
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border:1px solid;">WEB 222</td>
+                    <td style="border:1px solid;">
+                        Monday: 3:20pm - 5:05pm<br />
+                        Friday: 1:30pm - 3:15pm
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border:1px solid;">DCF 255</td>
+                    <td style="border:1px solid;">Thursday: 3:20pm - 6:00pm</td>
+                </tr>
+
+                <tr>
+                    <td style="border:1px solid;">LGE 903</td>
+                    <td style="border:1px solid;">Friday 10:45am - 1:25pm</td>
+                </tr>
+            </table>
+
+            <h3>Top 5 Favourite Songs</h3>
+            <table style="border:1px solid;">
+                <thead>
+                    <tr>
+                        <th style="border:1px solid;">Title</th>
+                        <th style="border:1px solid;">Artist</th>
+                        <th style="border:1px solid;">Length</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td style="border:1px solid;">Sorry</td>
+                        <td style="border:1px solid;">Justin Bieber</td>
+                        <td style="border:1px solid;">3:20</td>
+                    </tr>
+
+                    <tr>
+                        <td style="border:1px solid;">Suger</td>
+                        <td style="border:1px solid;">Maroon 5</td>
+                        <td style="border:1px solid;">3:53</td>
+                    </tr>
+
+                    <tr>
+                        <td style="border:1px solid;">One More Night</td>
+                        <td style="border:1px solid;">Maroon 5</td>
+                        <td style="border:1px solid;">3:43</td>
+                    </tr>
+
+                    <tr>
+                        <td style="border:1px solid;">We Don't Talk Anymore</td>
+                        <td style="border:1px solid;">Charlie Puth</td>
+                        <td style="border:1px solid;">3:50</td>
+                    </tr>
+
+                    <tr>
+                        <td style="border:1px solid;">Faded</td>
+                        <td style="border:1px solid;">Alan Walker</td>
+                        <td style="border:1px solid;">3:32</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th colspan="2" style="border:1px solid;">
+                            Total Legth Of This Playlist
+                        </th>
+                        <td style="border:1px solid;">16:98</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <h3>User Information</h3>
+
+            <table id="table" style="border:1px solid;"></table>
+
+            <!-- End your code here  -->
+        </section>
+        <footer>
+            <div class="center">
+                &copy; 2019 Lien Tran (Heily)
+            </div>
+        </footer>
+    </body>
+</html>
