@@ -11,4 +11,4 @@
 
 - [x] <Strong> Assigment 4: WEBSITE ABOUT A COUNTRY LIST </strong>
 
-- [x] <Strong> Assigment 4-5: SHOES STORE WEBSITE - SELF MADED </strong>
+- [x] <Strong> Assigment 5-6: SHOES STORE WEBSITE - SELF MADED </strong>
